@@ -6,10 +6,8 @@ import BusinessPlan from "./components/BusinessPlan";
 import ConsumerPlan from "./components/ConsumerPlan";
 import BasicPlan from "./components/BasicPlan";
 import Deal from "./components/Deal";
-import { FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
 import ContactPopup from "./components/ContactPopup";
-import { IoCallOutline } from "react-icons/io5";
 import { AiOutlineThunderbolt } from "react-icons/ai";
 
 
