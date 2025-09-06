@@ -1,7 +1,7 @@
 "use client";
 import { FaUserCircle } from "react-icons/fa";
 
-export default function OldestUserCard() {
+export default function OldestUserCard({username,address}) {
   return (
     <div className="m-10 text-white flex items-center justify-center">
 
@@ -12,10 +12,10 @@ export default function OldestUserCard() {
 
         <h3 className="text-base font-semibold mb-1">Our Oldest User</h3>
 
-        <p className="text-sm opacity-90">@maxnet_user</p>
+        <p className="text-sm opacity-90">{username}</p>
 
         <p className="text-xs opacity-70 mt-2">
-          House #12, Block A, Karachi
+          {address}
         </p>
       </div>
     </div>

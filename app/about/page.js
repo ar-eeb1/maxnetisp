@@ -22,7 +22,7 @@ function Page() {
           tireless efforts turned Maxnet into what it is today.
           <br /><br />
           <span className="font-bold">Alhamdulillah</span>, with pure hard work, passion, and the unwavering
-          support of our beloved users, Maxnet has grown to become the <span className="font-bold">No. 1 provider in our area</span>.
+          support of our beloved users, Maxnet has grown to become the <span className="font-bold">one of the best in our area</span>.
           Managed by an experienced and committed team, our promise has always been clear: to deliver
           the best possible service without compromise — and that dedication will never fade.
         </p>
@@ -93,11 +93,19 @@ function Page() {
 
       {/* Legacy Connections */}
       <h1 className="text-white px-10 md:px-40 mt-12 mb-6">Legacy Connections</h1>
-      <div className="flex justify-between flex-wrap px-10 md:px-40 gap-6">
-        {[...Array(10)].map((_, idx) => (
-          <OldestUserCard key={idx} />
-        ))}
-      </div>
+      <OldestUserCard
+        username="SOON"
+        address="SOON"
+      />
+      <OldestUserCard
+        username="SOON"
+        address="SOON"
+      />
+      <OldestUserCard
+        username="SOON"
+        address="SOON"
+      />
+
     </div>
   );
 }
