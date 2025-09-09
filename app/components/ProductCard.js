@@ -1,5 +1,6 @@
 import React from "react";
 import { toast, Slide } from "react-toastify";
+import Image from "next/image";
 
 
 function ProductCard({ image, name, price, description, onAddToCart }) {
@@ -21,10 +22,12 @@ function ProductCard({ image, name, price, description, onAddToCart }) {
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
       {/* Image */}
       <div className="w-full h-48 flex items-center justify-center bg-gray-100">
-        <img
+        <Image
           src={image}
           alt={name}
-          className="max-h-full max-w-full object-contain"
+          width={200}   // adjust as needed
+          height={200}  // adjust as needed
+          className="max-h-48 object-contain"
         />
       </div>
 

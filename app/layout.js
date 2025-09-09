@@ -8,6 +8,7 @@ import PageTransition from "./components/PageTransition"; // ⬅️ client wrapp
 import Script from "next/script";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const poppins = Poppins({
   weight: ["400", "600", "700"],
