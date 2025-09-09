@@ -75,31 +75,6 @@ export default function ContactPopup() {
                 </div>
               </div>
 
-              {/* Adnan */}
-              <div className="flex items-center justify-between bg-cyan-50 p-3 rounded-md shadow-sm hover:shadow-md transition">
-                <div>
-                  <p className="font-semibold">ADNAN</p>
-                  <a
-                    href="tel:+923453619183"
-                    className="text-cyan-700 hover:underline"
-                  >
-                    0345-3619183
-                  </a>
-                </div>
-                <div className="flex gap-2">
-                  <a
-                    href="tel:+923453619183"
-                    className="text-cyan-600 hover:text-cyan-800 text-lg"
-                  >
-                    <IoCallOutline />
-                  </a>
-                  <button
-                    className="text-gray-500 hover:text-gray-700 transition text-lg"
-                  >
-                    <FaRegCopy />
-                  </button>
-                </div>
-              </div>
             </div>
           </div>
         </div>
