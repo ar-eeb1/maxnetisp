@@ -20,7 +20,6 @@ function Team({ name, role, image }) {
         size="96"
         round="true"
         color="#22d3ee"
-        fgColor="#fff"
         />
       )}
       <h3 className="mt-4 text-lg font-bold text-white">{name}</h3>

@@ -39,7 +39,7 @@ function BasicPlan() {
                 <div className="flex justify-center pb-6">
                   <button 
                   className="bg-gradient-to-r from-cyan-500 to-blue-600 cursor-pointer px-6 py-2 rounded-full text-white font-semibold shadow-md hover:shadow-lg hover:scale-110 transition"
-                  onClick={()=>handleChoosePlan("p6")}
+                  onClick={()=>handleChoosePlan("P6-17")}
                   >
 
                     Choose Plan
@@ -70,7 +70,7 @@ function BasicPlan() {
                 </ul>
 
                 <div className="flex justify-center pb-6"
-                onClick={()=>handleChoosePlan("p7")}>
+                onClick={()=>handleChoosePlan("P7-10")}>
                   <button className="bg-gradient-to-r from-cyan-500 to-blue-600 cursor-pointer px-6 py-2 rounded-full text-white font-semibold shadow-md hover:shadow-lg hover:scale-110 transition">
                     Choose Plan
                   </button>

@@ -42,7 +42,7 @@ const handleChoosePlan = (planValue) =>{
 
                 <div className="flex justify-center pb-6">
                   <button className="bg-gradient-to-r from-cyan-500 to-blue-600 cursor-pointer px-6 py-2 rounded-full text-white font-semibold shadow-md hover:shadow-lg hover:scale-110 transition"
-                  onClick={()=>handleChoosePlan("p2")}
+                  onClick={()=>handleChoosePlan("P2-52")}
                   >
                     Choose Plan
                   </button>
@@ -75,7 +75,7 @@ const handleChoosePlan = (planValue) =>{
 
                 <div className="flex justify-center pb-6">
                   <button className="bg-gradient-to-r from-cyan-500 to-blue-600 cursor-pointer px-6 py-2 rounded-full text-white font-semibold shadow-md hover:shadow-lg hover:scale-110 transition"
-                  onClick={()=>handleChoosePlan("p1")}
+                  onClick={()=>handleChoosePlan("P1-102")}
                   >
                     Choose Plan
                   </button>

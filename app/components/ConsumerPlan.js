@@ -36,7 +36,7 @@ function ConsumerPlan() {
 
                         <div className="flex justify-center pb-6">
                             <button
-                            onClick={()=>handleChoosePlan("p3")}
+                            onClick={()=>handleChoosePlan("P3-32")}
                             className="bg-gradient-to-r from-cyan-500 to-blue-600 cursor-pointer px-6 py-2 rounded-full text-white font-semibold shadow-md hover:shadow-lg hover:scale-110 transition">
                                 Choose Plan
                             </button>
@@ -71,7 +71,7 @@ function ConsumerPlan() {
 
                         <div className="flex justify-center pb-6">
                             <button 
-                            onClick={()=>handleChoosePlan("p5")}
+                            onClick={()=>handleChoosePlan("P5-22")}
                             className="bg-gradient-to-r from-cyan-500 to-blue-600 cursor-pointer px-6 py-2 rounded-full text-white font-semibold shadow-md hover:shadow-lg hover:scale-110 transition">
                                 Choose Plan
                             </button>
@@ -103,7 +103,7 @@ function ConsumerPlan() {
 
                         <div className="flex justify-center pb-6">
                             <button 
-                            onClick={()=>handleChoosePlan("p4")}
+                            onClick={()=>handleChoosePlan("P4-27")}
                             className="bg-gradient-to-r from-cyan-500 to-blue-600 cursor-pointer px-6 py-2 rounded-full text-white font-semibold shadow-md hover:shadow-lg hover:scale-110 transition">
                                 Choose Plan
                             </button>
