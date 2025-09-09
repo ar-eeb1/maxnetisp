@@ -32,17 +32,31 @@ function GetConnectedPage() {
   const delay = (d) =>
     new Promise((resolve) => setTimeout(resolve, d * 1000));
 
+  // const onSubmit = async (data) => {
+  //   let r = await fetch("https://maxbackend-production.up.railway.app/", {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify(data),
+  //   });
+  //   let res = await r.text();
+  //   // console.log(data, res);
+  // };
   const onSubmit = async (data) => {
-    let r = await fetch("http://192.168.0.104:3100/", {
+  try {
+    const res = await fetch("https://maxbackend-production.up.railway.app/", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data)
     });
-    let res = await r.text();
-    // console.log(data, res);
-  };
+    const result = await res.json();
+    console.log(result);
+  } catch (err) {
+    console.error("Fetch failed:", err);
+  }
+};
+
 
   return (
     <div className="mt-20 flex flex-col items-center justify-center min-h-fit py-10 px-6 shadow-lg rounded-lg">

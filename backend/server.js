@@ -9,7 +9,12 @@ dotenv.config();
 const app = express()
 const port = 3100
 
-app.use(cors())
+// app.use(cors())
+// new
+app.use(cors({
+  origin: "https://maxnetisp.netlify.app"
+}));
+
 app.use(bodyParser.json())
 
 // connecting my mongoDB

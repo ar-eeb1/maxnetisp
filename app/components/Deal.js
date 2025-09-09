@@ -24,7 +24,7 @@ function Deal() {
                         </div>
 
                         <ul className="space-y-1 text-gray-700 px-8 pb-6 text-left">
-                            <li className="decoration-1">Dlink DIR-850L ~ 5Ghz (USED)</li>
+                            <li className="decoration-1">Dlink DIR-850L ~ 5Ghz (Refurbed)</li>
                             <li className="decoration-1">CAT-6 Ethernet</li>
                             <li className="decoration-1">GPON-Pure-17Mb</li>
                             <li className="decoration-1">Connection Charges</li>
@@ -47,12 +47,12 @@ function Deal() {
                         <div className="p-6 text-center">
                             <h2 className="text-2xl font-bold text-gray-800">FIBRE OPTIC DEAL</h2>
                             <h5 className="text-2xl font-semibold text-gray-700 mt-2">
-                                Rs8000
+                                Rs7500
                             </h5>
                         </div>
 
                         <ul className="space-y-1 text-gray-700 px-8 pb-6 text-left">
-                            <li className="decoration-1">Huawei HG145v5 ~ 5Dbi (USED)</li>
+                            <li className="decoration-1">Huawei HG145v5 ~ 5Dbi (Refurbed)</li>
                             <li className="decoration-1">Fibre Optic</li>
                             <li className="decoration-1">GPON-Pure-17Mb</li>
                             <li className="decoration-1">Connection Charges</li>
@@ -74,13 +74,16 @@ function Deal() {
                         </div>
                         <div className="p-6 text-center">
                             <h2 className="text-2xl font-bold text-gray-800">FIBRE OPTIC DEAL</h2>
-                            <h5 className="text-2xl font-semibold text-gray-700 mt-2">
+                            <h5 className=" text-lg text-red-500 line-through decoration-black decoration-1">
+                                Rs9500
+                            </h5>
+                            <h5 className="text-2xl font-semibold text-gray-700  italic">
                                 Rs9000
                             </h5>
                         </div>
 
                         <ul className="space-y-1 text-gray-700 px-8 pb-6 text-left">
-                            <li className="decoration-1">Huawei HG8245Q2 ~ 5Ghz (USED)</li>
+                            <li className="decoration-1">Huawei HG8245Q2 ~ 5Ghz (Refurbed)</li>
                             <li className="decoration-1">Fibre Optic</li>
                             <li className="decoration-1">GPON-Pure-17Mb</li>
                             <li className="decoration-1">Connection Charges</li>
@@ -130,8 +133,11 @@ function Deal() {
                         </div>
                         <div className="p-6 text-center">
                             <h2 className="text-2xl font-bold text-gray-800">FIBRE OPTIC DEAL</h2>
-                            <h5 className="text-2xl font-semibold text-gray-700 mt-2">
+                            <h5 className=" text-lg text-red-500 line-through decoration-black decoration-1">
                                 Rs8500
+                            </h5>
+                            <h5 className="text-2xl font-semibold text-gray-700  italic">
+                                Rs8000
                             </h5>
                         </div>
 
@@ -158,13 +164,16 @@ function Deal() {
                         </div>
                         <div className="p-6 text-center">
                             <h2 className="text-2xl font-bold text-gray-800">FIBRE OPTIC DEAL</h2>
-                            <h5 className="text-2xl font-semibold text-gray-700 mt-2">
-                                Rs7000
+                            <h5 className=" text-lg text-red-500 line-through decoration-black decoration-1">
+                                Rs7300
+                            </h5>
+                            <h5 className="text-2xl font-semibold text-gray-700  italic">
+                                Rs6500
                             </h5>
                         </div>
 
                         <ul className="space-y-1 text-gray-700 px-8 pb-6 text-left">
-                            <li className="decoration-1">Huawei C5 ~ 2.4Ghz (USED)</li>
+                            <li className="decoration-1">Huawei C5 ~ 2.4Ghz (Refurbed)</li>
                             <li className="decoration-1">Fibre Optic</li>
                             <li className="decoration-1">GPON-Pure-17Mb</li>
                             <li className="decoration-1">Connection Charges</li>
